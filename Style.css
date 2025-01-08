@@ -6,8 +6,8 @@
 * {
     margin: 0; /*mengatur jarak seluruh halaman*/
     padding: 0;
-    font-family: "Roboto",sans-serif;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Gambar */
@@ -15,7 +15,7 @@
 .image {
     position: relative; /*mengatur posisi gambar*/
     height: 165px; /*mengatur tinggi gambar*/
-    width: 140px; /*mengatur lebar  gambar*/
+    width: 165px; /*mengatur lebar  gambar*/
     border-radius: 50%;
 }
 
@@ -23,6 +23,6 @@
     height: 100%; /*mengatur tinggi gambar agar responsif*/
     width: 100%; /*mengatur lebar gambar agar responsif*/
     object-fit: cover; /*membuat gambar menjadi ngezoom*/
-
+    border-radius: 50%;
 
 }
