@@ -20,6 +20,19 @@ body {
     background-color: aliceblue;
 }
 
+/* Bagian Profile Card */
+
+.profile-card {
+    max-width: 370px; /*mengatur lebar background kartu agar tidak memanjang*/
+    width: 100%; /*mengatur agar lebarnya sesuai dengan max-width*/
+    background :#a8d6ff; /*mengatur warna latar belakang kartu*/
+    border-radius: 33px; /*mengatur lengkungan pada kartu*/
+    padding: 28px; /*mengatur cakupan profil*/
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /*mengatur warna bayangan pada kartu*/
+
+
+}
+
 /* Gambar */
 
 .image {
@@ -27,7 +40,7 @@ body {
     height: 165px; /*mengatur tinggi gambar*/
     width: 165px; /*mengatur lebar  gambar*/
     border-radius: 50%; /*code untuk lingkaran bulat foto*/
-    background-color: #4070f4; /*membuat warna di lingkaran foto*/
+    background-color: #e8e9ed; /*membuat warna di lingkaran foto*/
     padding: 3px; /*membuat warna di lingkaran foto*/
 }
 
