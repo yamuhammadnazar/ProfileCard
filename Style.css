@@ -16,13 +16,15 @@
     position: relative; /*mengatur posisi gambar*/
     height: 165px; /*mengatur tinggi gambar*/
     width: 165px; /*mengatur lebar  gambar*/
-    border-radius: 50%;
+    border-radius: 50%; /*code untuk lingkaran bulat foto*/
+    background-color: #4070f4; /*membuat warna di lingkaran foto*/
+    padding: 3px; /*membuat warna di lingkaran foto*/
 }
 
 .image .profile-img {
     height: 100%; /*mengatur tinggi gambar agar responsif*/
     width: 100%; /*mengatur lebar gambar agar responsif*/
     object-fit: cover; /*membuat gambar menjadi ngezoom*/
-    border-radius: 50%;
+    border-radius: 50%; /*code untuk lingkaran bulat foto*/
 
 }
