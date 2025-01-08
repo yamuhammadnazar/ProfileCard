@@ -23,6 +23,9 @@ body {
 /* Bagian Profile Card */
 
 .profile-card {
+    display: flex; /*berhubungan dengan text-data*/
+    flex-direction: column; /*berhubungan dengan text-data*/
+    align-items: center; /*berhubungan dengan text-data*/
     max-width: 370px; /*mengatur lebar background kartu agar tidak memanjang*/
     width: 100%; /*mengatur agar lebarnya sesuai dengan max-width*/
     background :#a8d6ff; /*mengatur warna latar belakang kartu*/
@@ -49,5 +52,12 @@ body {
     width: 100%; /*mengatur lebar gambar agar responsif*/
     object-fit: cover; /*membuat gambar menjadi ngezoom*/
     border-radius: 50%; /*code untuk lingkaran bulat foto*/
+}
 
+/* Bagian Teks di dalam Kartu */
+
+.profile-card .text-data {
+    display: flex;
+    flex-direction: column; /*agar kalimat terenter ke bawah*/
+    align-items: center; /*agar kalimat rapi dan berada ditengah*/
 }
