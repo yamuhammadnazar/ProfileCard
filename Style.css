@@ -10,6 +10,16 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Bagian Body */
+
+body {
+    height: 100vh; /*mengatur tinggi body*/
+    display: flex; /*mengatur letak foto agar dibawah*/
+    align-items: center; /*mengatur foto agar turun ke bawah bagian tengah*/
+    justify-content: center; /*mengatur foto  ke bagian tengah*/
+    background-color: aliceblue;
+}
+
 /* Gambar */
 
 .image {
